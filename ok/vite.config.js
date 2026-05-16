@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
+  base: './',
   root: '.',
   appType: 'mpa',
   server: { host: '::', port: 8080 },
